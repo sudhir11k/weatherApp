@@ -1,0 +1,331 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WeatherNetworkManager"
+provides-nominal:
+- "C11Weather_App21WeatherNetworkManager"
+provides-member:
+- ["C11Weather_App21WeatherNetworkManager", ""]
+provides-dynamic-lookup:
+- "fetchDataWithUrlRequest"
+- "session"
+- "sharedNetworkmanager"
+depends-top-level:
+- !private "JSONSerialization"
+- !private "AnyHashable"
+- !private "Dictionary"
+- "URLSessionTaskDelegate"
+- "NSObject"
+- "WeatherNetworkManager"
+- "BooleanLiteralType"
+- "URLRequest"
+- "Bool"
+- "URLSession"
+- !private "!="
+- "Void"
+- "Error"
+- "URLSessionConfiguration"
+- !private "CastingPrecedence"
+- "AssignmentPrecedence"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "JSONSerialization"]
+- ["Ps9AnyObject", "URLSession"]
+- ["Ps9AnyObject", "URLSessionConfiguration"]
+- ["Ps9AnyObject", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["Ps9AnyObject", "WeatherNetworkManager"]
+- !private ["Ps9AnyObject", "dataTask"]
+- ["Ps9AnyObject", "default"]
+- ["Ps9AnyObject", "fetchDataWithUrlRequest"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonObject"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "resume"]
+- ["Ps9AnyObject", "session"]
+- ["Ps9AnyObject", "sharedNetworkmanager"]
+- ["Ps9AnyObject", "urlCache"]
+- ["Ps9AnyObject", "urlSession"]
+- ["Ps9AnyObject", "urlSessionDidFinishEvents"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "JSONSerialization"]
+- ["Ps7CVarArg", "URLSession"]
+- ["Ps7CVarArg", "URLSessionConfiguration"]
+- ["Ps7CVarArg", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["Ps7CVarArg", "WeatherNetworkManager"]
+- !private ["Ps7CVarArg", "dataTask"]
+- ["Ps7CVarArg", "default"]
+- ["Ps7CVarArg", "fetchDataWithUrlRequest"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonObject"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "resume"]
+- ["Ps7CVarArg", "session"]
+- ["Ps7CVarArg", "sharedNetworkmanager"]
+- ["Ps7CVarArg", "urlCache"]
+- ["Ps7CVarArg", "urlSession"]
+- ["Ps7CVarArg", "urlSessionDidFinishEvents"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "JSONSerialization"]
+- ["Ps28CustomDebugStringConvertible", "URLSession"]
+- ["Ps28CustomDebugStringConvertible", "URLSessionConfiguration"]
+- ["Ps28CustomDebugStringConvertible", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["Ps28CustomDebugStringConvertible", "WeatherNetworkManager"]
+- !private ["Ps28CustomDebugStringConvertible", "dataTask"]
+- ["Ps28CustomDebugStringConvertible", "default"]
+- ["Ps28CustomDebugStringConvertible", "fetchDataWithUrlRequest"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonObject"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "resume"]
+- ["Ps28CustomDebugStringConvertible", "session"]
+- ["Ps28CustomDebugStringConvertible", "sharedNetworkmanager"]
+- ["Ps28CustomDebugStringConvertible", "urlCache"]
+- ["Ps28CustomDebugStringConvertible", "urlSession"]
+- ["Ps28CustomDebugStringConvertible", "urlSessionDidFinishEvents"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "JSONSerialization"]
+- ["Ps23CustomStringConvertible", "URLSession"]
+- ["Ps23CustomStringConvertible", "URLSessionConfiguration"]
+- ["Ps23CustomStringConvertible", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["Ps23CustomStringConvertible", "WeatherNetworkManager"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "dataTask"]
+- ["Ps23CustomStringConvertible", "default"]
+- ["Ps23CustomStringConvertible", "fetchDataWithUrlRequest"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonObject"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "resume"]
+- ["Ps23CustomStringConvertible", "session"]
+- ["Ps23CustomStringConvertible", "sharedNetworkmanager"]
+- ["Ps23CustomStringConvertible", "urlCache"]
+- ["Ps23CustomStringConvertible", "urlSession"]
+- ["Ps23CustomStringConvertible", "urlSessionDidFinishEvents"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Data", "deinit"]
+- !private ["Vs10Dictionary", "deinit"]
+- !private ["Ps9Equatable", "JSONSerialization"]
+- ["Ps9Equatable", "URLSession"]
+- ["Ps9Equatable", "URLSessionConfiguration"]
+- ["Ps9Equatable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["Ps9Equatable", "WeatherNetworkManager"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "dataTask"]
+- ["Ps9Equatable", "default"]
+- ["Ps9Equatable", "fetchDataWithUrlRequest"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "jsonObject"]
+- !private ["Ps9Equatable", "mutableContainers"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "resume"]
+- ["Ps9Equatable", "session"]
+- ["Ps9Equatable", "sharedNetworkmanager"]
+- ["Ps9Equatable", "urlCache"]
+- ["Ps9Equatable", "urlSession"]
+- ["Ps9Equatable", "urlSessionDidFinishEvents"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps5Error", "localizedDescription"]
+- !private ["Ps25ExpressibleByArrayLiteral", "mutableContainers"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "JSONSerialization"]
+- ["Ps8Hashable", "URLSession"]
+- ["Ps8Hashable", "URLSessionConfiguration"]
+- ["Ps8Hashable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["Ps8Hashable", "WeatherNetworkManager"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "dataTask"]
+- ["Ps8Hashable", "default"]
+- ["Ps8Hashable", "fetchDataWithUrlRequest"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "jsonObject"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "resume"]
+- ["Ps8Hashable", "session"]
+- ["Ps8Hashable", "sharedNetworkmanager"]
+- ["Ps8Hashable", "urlCache"]
+- ["Ps8Hashable", "urlSession"]
+- ["Ps8Hashable", "urlSessionDidFinishEvents"]
+- ["Ps8Hashable", ""]
+- !private ["CSo17JSONSerialization", "jsonObject"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["PSo9NSCopying", "default"]
+- !private ["PSo9NSCopying", "resume"]
+- ["PSo9NSCopying", "urlCache"]
+- !private ["CSo8NSObject", "AnyHashable"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Dictionary"]
+- ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "JSONSerialization"]
+- ["CSo8NSObject", "URLRequest"]
+- ["CSo8NSObject", "URLSession"]
+- ["CSo8NSObject", "URLSessionConfiguration"]
+- ["CSo8NSObject", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "WeatherNetworkManager"]
+- !private ["CSo8NSObject", "dataTask"]
+- ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "fetchDataWithUrlRequest"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "jsonObject"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sharedNetworkmanager"]
+- ["CSo8NSObject", "urlCache"]
+- ["CSo8NSObject", "urlSession"]
+- ["CSo8NSObject", "urlSessionDidFinishEvents"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "JSONSerialization"]
+- ["PSo16NSObjectProtocol", "URLSession"]
+- ["PSo16NSObjectProtocol", "URLSessionConfiguration"]
+- ["PSo16NSObjectProtocol", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["PSo16NSObjectProtocol", "WeatherNetworkManager"]
+- !private ["PSo16NSObjectProtocol", "dataTask"]
+- ["PSo16NSObjectProtocol", "default"]
+- ["PSo16NSObjectProtocol", "fetchDataWithUrlRequest"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "jsonObject"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sharedNetworkmanager"]
+- ["PSo16NSObjectProtocol", "urlCache"]
+- ["PSo16NSObjectProtocol", "urlSession"]
+- ["PSo16NSObjectProtocol", "urlSessionDidFinishEvents"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps9OptionSet", "mutableContainers"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "mutableContainers"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "deinit"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "mutableContainers"]
+- !private ["Ps10SetAlgebra", "mutableContainers"]
+- !private ["SS", "deinit"]
+- ["V10Foundation10URLRequest", "deinit"]
+- !private ["CSo10URLSession", "dataTask"]
+- ["CSo10URLSession", "deinit"]
+- ["CSo10URLSession", "init"]
+- ["CSo23URLSessionConfiguration", "default"]
+- ["CSo23URLSessionConfiguration", "deinit"]
+- ["CSo23URLSessionConfiguration", "urlCache"]
+- ["CSo18URLSessionDataTask", "deinit"]
+- !private ["CSo18URLSessionDataTask", "resume"]
+- !private ["PSo18URLSessionDelegate", "JSONSerialization"]
+- ["PSo18URLSessionDelegate", "URLSession"]
+- ["PSo18URLSessionDelegate", "URLSessionConfiguration"]
+- ["PSo18URLSessionDelegate", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["PSo18URLSessionDelegate", "WeatherNetworkManager"]
+- ["PSo18URLSessionDelegate", "init"]
+- !private ["PSo18URLSessionDelegate", "print"]
+- !private ["PSo18URLSessionDelegate", "session"]
+- ["PSo18URLSessionDelegate", "urlSession"]
+- ["PSo18URLSessionDelegate", "urlSessionDidFinishEvents"]
+- ["PSo18URLSessionDelegate", ""]
+- !private ["CSo14URLSessionTask", "resume"]
+- !private ["PSo22URLSessionTaskDelegate", "JSONSerialization"]
+- ["PSo22URLSessionTaskDelegate", "URLSession"]
+- ["PSo22URLSessionTaskDelegate", "URLSessionConfiguration"]
+- ["PSo22URLSessionTaskDelegate", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["PSo22URLSessionTaskDelegate", "WeatherNetworkManager"]
+- ["PSo22URLSessionTaskDelegate", "init"]
+- !private ["PSo22URLSessionTaskDelegate", "print"]
+- !private ["PSo22URLSessionTaskDelegate", "session"]
+- ["PSo22URLSessionTaskDelegate", "urlSession"]
+- ["PSo22URLSessionTaskDelegate", "urlSessionDidFinishEvents"]
+- ["PSo22URLSessionTaskDelegate", ""]
+- !private ["C11Weather_App21WeatherNetworkManager", "AnyHashable"]
+- ["C11Weather_App21WeatherNetworkManager", "Bool"]
+- !private ["C11Weather_App21WeatherNetworkManager", "Dictionary"]
+- ["C11Weather_App21WeatherNetworkManager", "Error"]
+- !private ["C11Weather_App21WeatherNetworkManager", "JSONSerialization"]
+- ["C11Weather_App21WeatherNetworkManager", "URLRequest"]
+- ["C11Weather_App21WeatherNetworkManager", "URLSession"]
+- ["C11Weather_App21WeatherNetworkManager", "URLSessionConfiguration"]
+- ["C11Weather_App21WeatherNetworkManager", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["C11Weather_App21WeatherNetworkManager", "Void"]
+- ["C11Weather_App21WeatherNetworkManager", "WeatherNetworkManager"]
+- ["C11Weather_App21WeatherNetworkManager", "deinit"]
+- ["C11Weather_App21WeatherNetworkManager", "fetchDataWithUrlRequest"]
+- ["C11Weather_App21WeatherNetworkManager", "init"]
+- !private ["C11Weather_App21WeatherNetworkManager", "print"]
+- ["C11Weather_App21WeatherNetworkManager", "session"]
+- ["C11Weather_App21WeatherNetworkManager", "sharedNetworkmanager"]
+- ["C11Weather_App21WeatherNetworkManager", "urlSession"]
+- ["C11Weather_App21WeatherNetworkManager", "urlSessionDidFinishEvents"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "JSONSerialization"]
+- ["Ps9_Hashable", "URLSession"]
+- ["Ps9_Hashable", "URLSessionConfiguration"]
+- ["Ps9_Hashable", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["Ps9_Hashable", "WeatherNetworkManager"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "dataTask"]
+- ["Ps9_Hashable", "default"]
+- ["Ps9_Hashable", "fetchDataWithUrlRequest"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "jsonObject"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "resume"]
+- ["Ps9_Hashable", "session"]
+- ["Ps9_Hashable", "sharedNetworkmanager"]
+- ["Ps9_Hashable", "urlCache"]
+- ["Ps9_Hashable", "urlSession"]
+- ["Ps9_Hashable", "urlSessionDidFinishEvents"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- !private "Vs10Dictionary"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- !private "CSo17JSONSerialization"
+- !private "Ps25LosslessStringConvertible"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "VCSo17JSONSerialization14ReadingOptions"
+- !private "Ps10SetAlgebra"
+- !private "SS"
+- "V10Foundation10URLRequest"
+- "CSo10URLSession"
+- "CSo23URLSessionConfiguration"
+- "CSo18URLSessionDataTask"
+- "PSo18URLSessionDelegate"
+- !private "CSo14URLSessionTask"
+- "PSo22URLSessionTaskDelegate"
+- "C11Weather_App21WeatherNetworkManager"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "b1139d39439d4a77a5205046c05f4965"
