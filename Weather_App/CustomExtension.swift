@@ -52,7 +52,7 @@ extension Dictionary where Key: Hashable, Value: Any {
  
  */
 extension UIImageView {
-    func downloadedFrom(link linkURL:NSURL, contentMode mode: UIViewContentMode) {
+    func downloadedFrom(link linkURL:NSURL, contentMode mode: UIView.ContentMode) {
         contentMode = mode
         //if let url = NSURL(string: link) {
         URLSession.shared.dataTask(with: linkURL as URL, completionHandler: { (data, _, error) -> Void in

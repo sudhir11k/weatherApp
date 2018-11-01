@@ -41,7 +41,7 @@ class WeatherAppManager {
         
         let url = createURLFromParameters(parameters: ["q":cityName as AnyObject, "appid": Constants.WeatherAPIDetails.APIKey as AnyObject], pathparam: nil)
         let urlRequest = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 20.0)
-        print("urlString \(urlRequest.url?.absoluteString)")
+        print("urlString \(String(describing: urlRequest.url?.absoluteString))")
         
         networkManager.fetchDataWithUrlRequest(urlRequest) { (_ success:Bool, _ fetchedData:Any?,_ error: Error?) in
             if let weatherDict = fetchedData as? [String:Any] {
@@ -80,7 +80,7 @@ class WeatherAppManager {
         do {
             
             let jsonObject = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as? Dictionary<AnyHashable,Any>
-            print("Dummy jsonObject \(jsonObject)")
+            print("Dummy jsonObject \(String(describing: jsonObject))")
             completion(true, jsonObject, nil)
         }
             

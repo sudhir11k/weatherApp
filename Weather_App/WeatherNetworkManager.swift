@@ -35,7 +35,6 @@ class WeatherNetworkManager: NSObject, URLSessionTaskDelegate {
             } else {
                 do {
                     let jsonObject = try JSONSerialization.jsonObject(with: data!, options: .mutableContainers) as? Dictionary<AnyHashable,Any>
-                    print(jsonObject)
                     completion(true, jsonObject, nil)
                 } catch {
                     completion(false, nil, nil)

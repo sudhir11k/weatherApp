@@ -68,7 +68,7 @@ class WeatherViewController: UIViewController, UITableViewDataSource,UITableView
         self.weatherTableView.dataSource = self
         self.weatherTableView.delegate = self
         
-        self.weatherTableView.rowHeight = UITableViewAutomaticDimension
+        self.weatherTableView.rowHeight = UITableView.automaticDimension
         self.weatherTableView.estimatedRowHeight = 50.0
         self.weatherTableView.tableFooterView = UIView(frame: CGRect.zero)
         self.view.backgroundColor = UIColor(red: 245/255, green: 245/255, blue: 245/255, alpha: 1.0)
@@ -129,7 +129,7 @@ class WeatherViewController: UIViewController, UITableViewDataSource,UITableView
         
         for value in keyArrayforFilter{
             
-            if let keyValue = weatherData.getValue(forKeyPath: value) as? Any{
+            if let keyValue = weatherData.getValue(forKeyPath: value){
                 var dict : Dictionary<String,Any> = [:]
                 dict[value.last!] = keyValue
                 weatherTableData.append(dict)
@@ -175,9 +175,9 @@ class WeatherViewController: UIViewController, UITableViewDataSource,UITableView
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: "WeatherTopCell", for: indexPath as IndexPath) as! WeatherMainTableViewCell
                 
-                cell.selectionStyle = UITableViewCellSelectionStyle.none
+                cell.selectionStyle = UITableViewCell.SelectionStyle.none
                 
-                let weatherDict : Dictionary<String,Any>= (indexDict["weather"] as! Array).first!
+                let weatherDict : Dictionary<String,Any> = (indexDict["weather"] as! Array).first!
                 
                 //http://openweathermap.org/img/w/10d.png
                 
@@ -201,14 +201,14 @@ class WeatherViewController: UIViewController, UITableViewDataSource,UITableView
                 if let value1 = value as? String{
                     trimmedValue = value1.trimmingCharacters(in: CharacterSet.whitespaces)
                 }else if let value1 = value as? NSNumber{
-                    trimmedValue = value1.stringValue as String!
+                    trimmedValue = value1.stringValue 
                     trimmedValue = trimmedValue.trimmingCharacters(in: CharacterSet.whitespaces)
                 }else{
                     trimmedValue = ""
                 }
                 
                 let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! SimpleTableViewCell
-                cell.selectionStyle = UITableViewCellSelectionStyle.none
+                cell.selectionStyle = UITableViewCell.SelectionStyle.none
                 
                 
                 cell.leftLabel.text = self.getKeyValueName(key: key)
@@ -290,7 +290,7 @@ class WeatherViewController: UIViewController, UITableViewDataSource,UITableView
     
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableViewAutomaticDimension
+        return UITableView.automaticDimension
     }
     
     // MARK: - Table View DataSource and Delegate methods
